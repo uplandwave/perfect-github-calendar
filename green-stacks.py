@@ -6,7 +6,8 @@ file_path = 'always-green.txt'
 # Function to add a character to the file
 def modify_file():
     with open(file_path, 'a') as f:
-        f.write('a')
+        date = os.system('date')
+        f.writelines(date)
 
 # Function to commit and push changes to GitHub
 def git_push():
