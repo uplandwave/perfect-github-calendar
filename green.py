@@ -1,8 +1,8 @@
 import git
 
 # Replace these with your own values
-local_directory = "/Users/lukebriggs/Documents/GitHub/perfect-github-calendar"
-repo_url = "https://github.com/uplandwave/perfect-github-calendar.git"
+local_directory = "/Users/lukebriggs/Documents/GitHub/green"
+repo_url = "https://github.com/uplandwave/green.git"
 branch_name = "main"
 commit_message = "Fake news"
 
